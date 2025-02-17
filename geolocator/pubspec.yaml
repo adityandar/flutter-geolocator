@@ -3,6 +3,7 @@ description: Geolocation plugin for Flutter. This plugin provides a cross-platfo
 repository: https://github.com/baseflow/flutter-geolocator/tree/main/geolocator
 issue_tracker: https://github.com/baseflow/flutter-geolocator/issues?q=is%3Aissue+is%3Aopen
 version: 13.0.2
+publish_to: none
 
 environment:
   sdk: ">=2.15.0 <4.0.0"
@@ -25,7 +26,8 @@ dependencies:
     sdk: flutter
 
   geolocator_platform_interface: ^4.2.3
-  geolocator_android: ^4.6.0
+  geolocator_android:
+    path: ../geolocator_android
   geolocator_apple: ^2.3.8
   geolocator_windows: ^0.2.3
 
